@@ -9,7 +9,7 @@ const __dirname = dirname(__filename)
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: '/apsrtc-bus-tracker/',
+  base: '/APSRTC-bus-tracker-fainal/',
   resolve: {
     alias: {
       '@': resolve(__dirname, './src'),
