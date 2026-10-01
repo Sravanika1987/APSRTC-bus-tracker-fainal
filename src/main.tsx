@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom'
+import { HashRouter, Routes, Route, Navigate } from 'react-router-dom'
 import { AuthProvider, useAuth } from './context/AuthContext'
 import { BusProvider } from './context/BusContext'
 import './i18n/config'
@@ -28,7 +28,7 @@ function App() {
   return (
     <AuthProvider>
       <BusProvider>
-        <BrowserRouter>
+        <HashRouter>
           <Routes>
             <Route path="/" element={<Login />} />
             <Route 
@@ -48,7 +48,7 @@ function App() {
               } 
             />
           </Routes>
-        </BrowserRouter>
+        </HashRouter>
       </BusProvider>
     </AuthProvider>
   )
