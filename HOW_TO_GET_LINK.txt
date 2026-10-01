@@ -1,0 +1,101 @@
+========================================
+  APSRTC BUS TRACKER - GET LIVE LINK
+========================================
+
+✅ BUILD IS READY! (dist/ folder is already created)
+
+========================================
+OPTION 1: VERCEL (RECOMMENDED - 1 MINUTE)
+========================================
+
+1. Open: https://vercel.com/new
+
+2. Sign up with GitHub
+
+3. Click "Import Git Repository"
+
+4. Connect GitHub and select or create new repo
+
+5. Upload the apsrtc-project folder
+
+6. Click "Deploy"
+
+7. DONE! Copy your link:
+   Example: https://apsrtc-bus-tracker.vercel.app
+
+========================================
+OPTION 2: NETLIFY DROP (2 MINUTES)
+========================================
+
+1. Open: https://app.netlify.com/drop
+
+2. Drag the "dist" folder from:
+   apsrtc-project/dist/
+
+3. DONE! Copy your link:
+   Example: https://apsrtc-tracker.netlify.app
+
+========================================
+OPTION 3: GITHUB PAGES (5 MINUTES)
+========================================
+
+1. Create new repo on GitHub: apsrtc-bus-tracker
+
+2. Open Command Prompt in apsrtc-project folder
+
+3. Run these commands:
+
+   git add .
+   git commit -m "Deploy APSRTC tracker"
+   git remote add origin https://github.com/YOUR-USERNAME/apsrtc-bus-tracker.git
+   git push -u origin main
+   npm run deploy
+
+4. Wait 2 minutes
+
+5. Link: https://YOUR-USERNAME.github.io/apsrtc-bus-tracker/
+
+========================================
+WHAT'S ON THE LIVE WEBSITE:
+========================================
+
+✅ Professional login page with APSRTC logo
+✅ User Dashboard with bus search
+✅ Admin Dashboard to manage buses
+✅ Real-time bus tracking on map
+✅ Multi-language: English, Telugu, Hindi
+✅ Interactive map with live bus positions
+
+========================================
+DEMO CREDENTIALS (FOR TESTING):
+========================================
+
+User Account:
+Email: user@apsrtc.com
+Password: user123
+
+Admin Account:
+Email: admin@apsrtc.com
+Password: admin123
+
+========================================
+MY RECOMMENDATION:
+========================================
+
+👉 Use VERCEL - It's the fastest!
+   Just go to vercel.com/new
+   Connect GitHub
+   Deploy
+   Get link in 60 seconds!
+
+========================================
+NEED HELP?
+========================================
+
+Everything is ready to deploy!
+Just choose any option above.
+Build is already done (dist/ folder).
+
+Your link will work immediately after deploy!
+
+========================================
